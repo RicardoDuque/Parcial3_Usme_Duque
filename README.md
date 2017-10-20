@@ -1,3 +1,3 @@
 # Parcial3_Usme_Duque
-Daniela Usme
+Daniela Usme /
 Ricardo Duque
