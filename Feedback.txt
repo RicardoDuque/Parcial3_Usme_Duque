@@ -1,0 +1,14 @@
+Feedback:
+
+1. (1.5/2.0)
+* La secuencia no tiene que chequear nada.
+* Ojo a las relaciones de composición y agregación en Composite. Por definición, si Composite agrega múltiples nodos, agrega todos los de abajo (o sea, otros composite y tasks)
+2. (1.5/3.0)
+* Error de compilación en TaskWait
+* TaskMove y TaskWait no heredan de Task. Por qué?
+* El nodo genérico no debería tener al objetivo como atributo. Según eso, cualquier nodo tiene un objetivo en el mundo.
+* Root.Execute() no retorna de una secuencia necesariamente. Puede ser de cualquier tipo de nodo.
+* No hay referencias a los nodos en ninguno de los códigos, por lo que ninguno de los nodos podría ejecutarse.
+* El selector base tiene la condición quemada de la distancia (es un caso muy específico). Según la implementación, cualquier selector debe validar una distancia. Y si mi árbol no es de medir distancias?
+
+Nota: 3.0
